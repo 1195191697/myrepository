@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>码问</title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/community.css">
+        <link rel="icon" href="/images/logo.png" type="image/x-icon"/>
+        <script src="/js/jquery-3.4.1.min.js"></script>
+        <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+        <script src="/js/community.js" type="application/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="google-site-verification" content="QGf2OqDw91EjWtNE07HoLJi0x0G2rIYylk6jn6JEoEQ" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89103576-8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+
+            gtag('config', 'UA-89103576-8');
+        </script>
+
+
+        <link rel="stylesheet" href="/css/editormd.min.css">
+        <link rel="stylesheet" href="/css/editormd.preview.min.css">
+        <script src="/js/editormd.min.js" type="application/javascript"></script>
+        <script src="/js/moment.js" type="application/javascript"></script>
+        <script src="/js/lib/marked.min.js"></script>
+        <script src="/js/lib/prettify.min.js"></script>
+</head>
+<script type="application/javascript">
+    window.onload = function () {
+        var closable = window.localStorage.getItem("closable");
+        if (closable == "true") {
+            window.close();
+            window.localStorage.removeItem("closable");
+        }
+    }
+</script>
+<body>
+<div><div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">码问</span>
+                </button>
+                <a class="navbar-brand" href="/">码问</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left" action="/" method="get">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="search" placeholder="搜索问题">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <ul class="nav navbar-nav">
+                    <script>
+                        function clickNav(label) {
+                            gtag('event', 'click', {
+                                'event_category': 'LINK',
+                                'event_label': label,
+                                'transport_type': 'NAV'
+                            })
+                        }
+                    </script>
+                    <li>
+                        <a href="https://detail.youzan.com/show/goods/newest?alias=2xj0uxwujrwg6" onclick="clickNav(&quot;\u7801\u5320\u7279\u60E0\u4E66\u57CE&quot;)"
+                           target="_blank">码匠特惠书城</a>
+                    </li>
+                    <li>
+                        <a href="http://www.mawen.co/question/212" onclick="clickNav(&quot;Java \u6743\u5A01\u9762\u8BD5\u6307\u5357&quot;)"
+                           target="_blank">Java 权威面试指南</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="/profile/replies">通知 <span class="badge"></span></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/login/oauth/authorize?client_id=69e311bad26e3f579725&amp;redirect_uri=http://www.mawen.co/callback&amp;scope=user&amp;state=1">登录</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div></div>
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+            <h3><span class="glyphicon glyphicon-list" aria-hidden="true"></span> 发现</h3>
+            <ul class="nav nav-tabs">
+                <li role="presentation">
+                    <a href="/?sort=new">最新</a>
+                </li>
+                <li role="presentation">
+                    <a href="/?sort=hot30">30天最热</a>
+                </li>
+                <li role="presentation">
+                    <a href="/?sort=hot7">7天最热</a>
+                </li>
+                <li role="presentation" class="active">
+                    <a href="/?sort=hot">最热</a>
+                </li>
+                <li role="presentation">
+                    <a href="/?sort=no" class="red">消灭零回复</a>
+                </li>
+            </ul>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars2.githubusercontent.com/u/3821949?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/1">如何快速学习 Spring Boot?</a>
+                    </h4>
+                    <span class="text-desc"><span>19</span> 个回复 • <span>924</span> 次浏览 • <span>2019-07-17 07:44</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars2.githubusercontent.com/u/38520080?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/423">认真提问：关于Thymeleaf的问题，希望能得到答案，谢谢大家</a>
+                    </h4>
+                    <span class="text-desc"><span>18</span> 个回复 • <span>88</span> 次浏览 • <span>2019-10-15 21:30</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars3.githubusercontent.com/u/47490129?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/157">部署成功，项目上线了，欢迎大家访问www.zykcoderman.xyz</a>
+                    </h4>
+                    <span class="text-desc"><span>17</span> 个回复 • <span>976</span> 次浏览 • <span>2019-08-19 16:05</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars3.githubusercontent.com/u/37008932?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/83">测试url</a>
+                    </h4>
+                    <span class="text-desc"><span>12</span> 个回复 • <span>185</span> 次浏览 • <span>2019-08-08 01:25</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars2.githubusercontent.com/u/52941591?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/213">做index页面时没有引入css样式和js样式</a>
+                    </h4>
+                    <span class="text-desc"><span>9</span> 个回复 • <span>203</span> 次浏览 • <span>2019-09-02 15:27</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars2.githubusercontent.com/u/26461104?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/280">添加拦截器后，静态资源被拦截</a>
+                    </h4>
+                    <span class="text-desc"><span>7</span> 个回复 • <span>163</span> 次浏览 • <span>2019-09-14 15:48</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars3.githubusercontent.com/u/53903406?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/167">各位学长，为什么我获取的用户名总为 null</a>
+                    </h4>
+                    <span class="text-desc"><span>7</span> 个回复 • <span>303</span> 次浏览 • <span>2019-08-22 21:31</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars2.githubusercontent.com/u/34562805?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/208">网站格式错乱</a>
+                    </h4>
+                    <span class="text-desc"><span>7</span> 个回复 • <span>143</span> 次浏览 • <span>2019-08-31 17:58</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars3.githubusercontent.com/u/28076761?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/7">测试是否冒烟</a>
+                    </h4>
+                    <span class="text-desc"><span>6</span> 个回复 • <span>247</span> 次浏览 • <span>2019-07-17 09:18</span></span>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+                             src="https://avatars3.githubusercontent.com/u/48546867?v=4">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="/question/32">发现个大漏洞，登陆，然后输入：地址/publish/id，然后直接可以改别人写的内容</a>
+                    </h4>
+                    <span class="text-desc"><span>6</span> 个回复 • <span>390</span> 次浏览 • <span>2019-07-23 15:09</span></span>
+                </div>
+            </div>
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+
+
+
+                    <li class="active">
+                        <a href="/?page=1&amp;search=&amp;tag=&amp;sort=hot">1</a>
+                    </li>
+
+                    <li>
+                        <a href="/?page=2&amp;search=&amp;tag=&amp;sort=hot">2</a>
+                    </li>
+
+                    <li>
+                        <a href="/?page=3&amp;search=&amp;tag=&amp;sort=hot">3</a>
+                    </li>
+
+                    <li>
+                        <a href="/?page=4&amp;search=&amp;tag=&amp;sort=hot">4</a>
+                    </li>
+
+                    <li>
+                        <a href="/?page=2&amp;search=&amp;tag=&amp;sort=hot"
+                           aria-label="Previous">
+                            <span aria-hidden="true">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?page=43&amp;search=&amp;tag=&amp;sort=hot"
+                           aria-label="Previous">
+                            <span aria-hidden="true">&gt;&gt;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+            <div><div>
+                <!--码问官方公众号-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side">
+                    <h4>官方微信</h4>
+                    <img class="img-thumbnail question-wechat" src="/images/official-account.png">
+                </div>
+            </div></div>
+            <!--相关问题-->
+            <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4>热门标签</h4>
+                <a href="/?page=1&amp;search=&amp;tag=java&amp;sort=hot"
+                   class="community-tag">java</a><a href="/?page=1&amp;search=&amp;tag=javascript&amp;sort=hot"
+                                                    class="community-tag">javascript</a><a href="/?page=1&amp;search=&amp;tag=spring&amp;sort=hot"
+                                                                                           class="community-tag">spring</a><a href="/?page=1&amp;search=&amp;tag=mysql&amp;sort=hot"
+                                                                                                                              class="community-tag">mysql</a><a href="/?page=1&amp;search=&amp;tag=html&amp;sort=hot"
+                                                                                                                                                                class="community-tag">html</a><a href="/?page=1&amp;search=&amp;tag=html5&amp;sort=hot"
+                                                                                                                                                                                                 class="community-tag">html5</a><a href="/?page=1&amp;search=&amp;tag=php&amp;sort=hot"
+                                                                                                                                                                                                                                   class="community-tag">php</a><a href="/?page=1&amp;search=&amp;tag=css&amp;sort=hot"
+                                                                                                                                                                                                                                                                   class="community-tag">css</a><a href="/?page=1&amp;search=&amp;tag=github&amp;sort=hot"
+                                                                                                                                                                                                                                                                                                   class="community-tag">github</a><a href="/?page=1&amp;search=&amp;tag=ide&amp;sort=hot"
+                                                                                                                                                                                                                                                                                                                                      class="community-tag">ide</a>
+            </div>
+            <div><div>
+                <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side">
+                    <a href="http://www.mawen.co/question/261" onclick="clickSide(&quot;UCloud&quot;)"
+                       target="_blank">
+                        <img class="img-thumbnail question-wechat" src="http://mawen-cdn.cn-bj.ufileos.com/uhost.png">
+                    </a>
+                </div>
+
+            </div></div>
+        </div>
+    </div>
+</div>
+<div><div class="footer">
+    <div>Copyright © 2019 码问 · <a href="http://www.beian.miit.gov.cn" target="_blank">浙ICP备18020649号-2</a> · 服务器赞助: <a
+            href="https://passport.ucloud.cn/?invitation_code=nmtbj0lvttvx&ytag=re01B1" target="_blank">UCloud</a> · All Rights Reserved
+        Powered
+    </div>
+</div></div>
+</body>
+</html>
